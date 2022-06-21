@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# KEY NOTES TO REMEMBER 
+Whenever you want to pass your state variable into another page you can use "useNavigate" hook and 
+    pick upp those variables at the new page with help of 
+        "useLocation " hook

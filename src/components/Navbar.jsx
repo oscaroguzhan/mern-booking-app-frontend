@@ -17,14 +17,17 @@ const NavContainer = styled.div`
     height: 60px;
     
 `;
-const Logo = styled.div`
+const Logo = styled.a`
     margin-left:20px;
     font-weight:600;
-    font-size:18px;
+    font-size:24px;
+    color:#fff;
+    text-decoration:none;
+    cursor: pointer;
 `;
 const NavItems = styled.div`
     display: flex;
-    width: 15rem;
+    width: 20rem;
     align-items: center;
     justify-content: space-evenly;
    
@@ -37,7 +40,7 @@ const NavButton = styled.button`
     width: 10rem;
     cursor: pointer;
     border-radius:10px;
-    font-size:14px;
+    font-size:16px;
     font-weight:600;
     background-color: #${props => props.bg};
     &:hover {
@@ -53,7 +56,7 @@ const Navbar = () => {
   return (
     <Container bg="003580">
         <NavContainer >
-          <Logo>CodeGuruOzzy@Book.com</Logo>
+          <Logo href="https://codeguruozzy.com">CodeGuruOzzy@Book.com</Logo>
           <NavItems>
             <NavButton bg="fff" bg2="003580">Register</NavButton>
             <NavButton bg="fff" bg2="003580">Sign in</NavButton>
